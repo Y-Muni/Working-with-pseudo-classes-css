@@ -7,14 +7,32 @@ body {
 a {
     display: inline-block;
     margin-right: 10px;
+    color: lightblue;
 }
 
+/* Работа с псевдо классами!
 a:link:hover {
     color: orange;
 }
 
 a:visited:hover {
     color:darkolivegreen;
+
+a:not(.bing) {
+    color: firebrick;
+} */
+
+/* "Это если указываем в скобках атрибут"
+a:not([href="https://google.com"]) {
+    color: firebrick;
+} */
+
+a[href="https://google.com"] {
+    text-transform: uppercase;
+}
+
+a:not([target]) {
+    color: firebrick;
 }
 
 input {
