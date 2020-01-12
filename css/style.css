@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a:link:hover {
+    color: orange;
+}
+
+/* input {
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 1px solid blue;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product_item {
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+} */
+
