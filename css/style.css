@@ -13,6 +13,10 @@ a:link:hover {
     color: orange;
 }
 
+a:visited:hover {
+    color:darkolivegreen;
+}
+
 /* input {
     border:none;
     border-bottom: 1px solid black;
