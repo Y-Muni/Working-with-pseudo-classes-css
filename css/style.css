@@ -17,7 +17,7 @@ a:visited:hover {
     color:darkolivegreen;
 }
 
-/* input {
+input {
     border:none;
     border-bottom: 1px solid black;
     outline: none;
@@ -27,13 +27,13 @@ input:focus {
     border-bottom: 1px solid blue;
 }
 
-.products {
+/* .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
+} */
 
-.product_item {
+/* .product_item {
     width: 200px;
     height: 300px;
     margin-top: 20px;
