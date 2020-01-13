@@ -4,11 +4,11 @@ body {
     box-sizing: border-box;
 }
 
-a {
+/* a {
     display: inline-block;
     margin-right: 10px;
     color: lightblue;
-}
+} */
 
 /* Работа с псевдо классами!
 a:link:hover {
@@ -27,6 +27,7 @@ a:not([href="https://google.com"]) {
     color: firebrick;
 } */
 
+/* Ещё 2 варианта работы с ссылками и псевдоклассами
 a[href="https://google.com"] {
     text-transform: uppercase;
 }
@@ -43,17 +44,27 @@ input {
 
 input:focus {
     border-bottom: 1px solid blue;
-}
+} */
 
-/* .products {
+.products {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-} */
+}
 
-/* .product_item {
-    width: 200px;
-    height: 300px;
+.product_item {
+    width: 280px;
+    height: 200px;
     margin-top: 20px;
+    margin-right: 20px;
+    background-color: cornflowerblue;
+}
+
+/* .product_item:first-child {
+    background-color: darkkhaki;
+}
+
+.product_item:last-child {
+    background-color: darkgray;
 } */
 
