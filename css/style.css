@@ -60,11 +60,15 @@ input:focus {
     background-color: cornflowerblue;
 }
 
-/* .product_item:first-child {
+.product_item:first-of-type {
     background-color: darkkhaki;
 }
 
-.product_item:last-child {
+.product_item:last-of-type {
     background-color: darkgray;
-} */
+}
+
+.product_item:nth-child(even) {
+    background-color: fuchsia;
+}
 
