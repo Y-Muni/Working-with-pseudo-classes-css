@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+/* Работа с псевдо элементами */
 a::before {
     content: "@";
 }
@@ -20,10 +21,13 @@ a::after {
     margin-left: 10px;
 }
 
+/* Он почему-то у меня не сработал? (( */
 a::selection {
     background-color: greenyellow;
-    color: white;
+    color:red;
 }
+
+
 
 /* Работа с псевдо классами!
 a:link:hover {
@@ -90,4 +94,8 @@ input:focus {
 .product_item:nth-child(4n) {
     background-color: fuchsia;
     margin-right: 0;
+}
+
+.products:hover .product_item {
+    background-color: darkkhaki;
 }
