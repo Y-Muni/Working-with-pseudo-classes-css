@@ -4,11 +4,26 @@ body {
     box-sizing: border-box;
 }
 
-/* a {
+a {
     display: inline-block;
     margin-right: 10px;
     color: lightblue;
-} */
+    text-decoration: none;
+}
+
+a::before {
+    content: "@";
+}
+
+a::after {
+    content: ">";
+    margin-left: 10px;
+}
+
+a::selection {
+    background-color: greenyellow;
+    color: white;
+}
 
 /* Работа с псевдо классами!
 a:link:hover {
