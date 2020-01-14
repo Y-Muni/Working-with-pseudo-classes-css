@@ -68,7 +68,11 @@ input:focus {
     background-color: darkgray;
 }
 
-.product_item:nth-child(even) {
-    background-color: fuchsia;
+.product_item:nth-child(-n+4) {
+    margin-top: 0;
 }
 
+.product_item:nth-child(4n) {
+    background-color: fuchsia;
+    margin-right: 0;
+}
