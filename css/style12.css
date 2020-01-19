@@ -15,7 +15,7 @@ body {
 
 .Colors {
     width: 550px;
-    height: 90px;
+    height: 95px;
     margin: 10px 10px;
     list-style-type: none;
     text-align: left;
@@ -40,20 +40,20 @@ a {
     padding-left: 5px;
 }
 
-/* Миша, почему то ховер не сработал? */
-a:link:hover {
-    color: blueviolet;
+a:hover {
+    color: red;
 }
 
-/* Миша, а как сделать на один и тот же тег в начале разные значки? */
-a::before {
+a[href^="phone"]::before {
     content: "\260E";
     padding-right: 5px;
+    font-size: 14px;
 }
 
-a::before {
+a[href^="mail"]::before {
     content: "\2709";
     padding-right: 5px;
+    font-size: 14px;
 }
 
 h3 {
@@ -64,24 +64,25 @@ h3 {
     font-weight: normal;
 }
 
-a:nth-child(1) {
-    padding-left: 5px;
-    padding-top: 5px;
-    margin: 0;
-    font-style: italic;
-}
-
-/* Тоже не сработало у меня? */
-a:nth-child(2) {
+li:nth-child(1) {
     padding-left: 5px;
     padding-top: 5px;
     margin: 0;
     font-style: normal;
 }
 
-/* Тоже условие не сработало, не понимаю почему?((( */
-a [href^="Mail"] {
-    font-weight: bold;
+li:nth-child(2) {
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+    font-style: italic;
+}
+
+li:nth-child(3) {
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+    font-style: italic;
 }
 
 h3::first-letter {
